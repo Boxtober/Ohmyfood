@@ -1,14 +1,8 @@
 @import '../base/reset';
+@import '../utils/variables';
 @import '../components/buttons';
-
-:root {
-  --primary: #9356DC;
-  --secondary: #FF79DA;
-  --tertiaire: #99E2D0;
-  --font-text: "Roboto";
-  --gradient: linear-gradient(350deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
-  --gradient-hover: linear-gradient(350deg, #9356dc 0%, #ff79da 80%);
-}
+@import '../components/navbar';
+@import '../components/cards';
 
 .col {
   display: flex;
@@ -49,13 +43,6 @@ h4 {
   font-weight: 700;
 }
 
-nav {
-  height: 63px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-}
 
 .localisation {
   display: flex;
@@ -65,8 +52,6 @@ nav {
   gap: 17px;
   background-color: #EAEAEA;
 }
-
-
 
 .discover {
   display: flex;
