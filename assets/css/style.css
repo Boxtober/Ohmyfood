@@ -11,6 +11,7 @@
   --primary: #9356DC;
   --secondary: #FF79DA;
   --tertiaire: #99E2D0;
+  --black: #000;
   --font-text: "Roboto";
   --gradient: linear-gradient(350deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
   --gradient-hover: linear-gradient(350deg, #9356dc 0%, #ff79da 80%); }
@@ -35,15 +36,49 @@ nav {
   justify-content: center;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25); }
 
-.card {
-  /*max-width: 490px;*/
-  width: 340px;
-  height: auto;
-  background-color: #ececec; }
-
-.card > img {
+.card,
+.home_card {
+  max-width: 490px;
   width: 100%;
-  object-fit: cover; }
+  height: auto;
+  background-color: #ececec;
+  border-radius: 1rem;
+  position: relative;
+  padding: 0; }
+  .card .card__img,
+  .home_card .card__img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0; }
+  .card .card__icon,
+  .home_card .card__icon {
+    position: absolute;
+    top: 1rem;
+    right: 0.75rem;
+    padding: 8px;
+    background-color: var(--tertiaire);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15); }
+  .card p,
+  .home_card p {
+    color: var(--black);
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; }
+  .card .bold,
+  .home_card .bold {
+    font-size: 18px;
+    font-weight: 700; }
+  .card figcaption,
+  .home_card figcaption {
+    padding: 13px 16px;
+    justify-content: space-between;
+    align-items: center; }
+
+.card {
+  max-width: 634px;
+  padding: 15px; }
 
 .operation-step-container {
   display: flex;
@@ -101,11 +136,12 @@ nav {
 
 .col {
   display: flex;
-  flex-direction: row; }
+  flex-direction: column; }
 
 .row {
   display: flex;
-  flex-direction: column; }
+  flex-direction: row;
+  align-items: center; }
 
 section {
   padding-top: 1.5rem;
