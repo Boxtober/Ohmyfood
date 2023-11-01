@@ -6,15 +6,30 @@
   text-decoration: none; }
   * ul li {
     list-style-type: none; }
+  * a {
+    text-decoration: none; }
 
 :root {
   --primary: #9356DC;
   --secondary: #FF79DA;
   --tertiaire: #99E2D0;
   --black: #000;
+  --Green-Font: #008766;
   --font-text: "Roboto";
   --gradient: linear-gradient(350deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
   --gradient-hover: linear-gradient(350deg, #9356dc 0%, #ff79da 80%); }
+
+.col {
+  display: flex;
+  flex-direction: column; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.hidden {
+  display: none; }
 
 .button {
   padding: 13px 18.75px;
@@ -57,7 +72,8 @@ nav {
     right: 0.75rem;
     padding: 8px;
     background-color: var(--tertiaire);
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--Green-Font, #008766); }
   .card p,
   .home_card p {
     color: var(--black);
@@ -134,14 +150,26 @@ nav {
 .fas .fa-mobile-alt {
   padding-left: 10%; }
 
-.col {
+footer {
+  padding: 22px 25px;
+  background-color: #353535;
+  color: white;
   display: flex;
-  flex-direction: column; }
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
+  flex-direction: column;
+  gap: 16px; }
+  footer h3 {
+    font-family: "Shrikhand", "sans-serif";
+    font-size: 18px; }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px; }
+    footer ul a {
+      color: white; }
+    footer ul i {
+      width: 11px;
+      height: 13px;
+      padding-right: 25px; }
 
 section {
   padding-top: 1.5rem;
@@ -182,3 +210,7 @@ h4 {
   text-align: center;
   gap: 1.5rem;
   background-color: #F6F6F6; }
+
+.restaurants {
+  background-color: #F6F6F6;
+  gap: 18px; }

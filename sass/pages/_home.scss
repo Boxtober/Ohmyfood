@@ -4,17 +4,7 @@
 @import '../components/navbar';
 @import '../components/cards';
 @import '../components/step';
-
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+@import '../layout/footer';
 
 section {
   padding-top: 1.5rem;
@@ -62,4 +52,9 @@ h4 {
   text-align: center;
   gap: 1.5rem;
   background-color: #F6F6F6;
+}
+
+.restaurants {
+  background-color: #F6F6F6;
+  gap: 18px;
 }
