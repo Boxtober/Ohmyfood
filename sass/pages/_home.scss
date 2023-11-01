@@ -3,6 +3,10 @@
 @import '../components/buttons';
 @import '../components/navbar';
 @import '../components/cards';
+@import '../components/step';
+
+
+
 
 .col {
   display: flex;
@@ -61,5 +65,3 @@ h4 {
   gap: 1.5rem;
   background-color: #F6F6F6;
 }
-
-/*# sourceMappingURL=style.css.map */
