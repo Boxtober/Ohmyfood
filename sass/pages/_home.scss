@@ -5,17 +5,15 @@
 @import '../components/cards';
 @import '../components/step';
 
-
-
-
 .col {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }
 
 section {
