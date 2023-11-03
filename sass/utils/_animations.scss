@@ -16,7 +16,6 @@
         opacity: 0;
         background-image: linear-gradient(#FF79DA, #9356DC);
         transition: opacity 0.2s ease-out, transform 0.3s ease-out;
-        /* Ajoutez la transition pour transform */
         transform-origin: center;
 
         &:hover,

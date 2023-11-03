@@ -1,7 +1,7 @@
 .card,
 .home_card {
-    max-width: 490px;
-    width: 100%;
+
+
     height: auto;
     background-color: white;
     border-radius: 1rem;
@@ -50,7 +50,13 @@
     }
 }
 
+.home_card {
+    width: 100%;
+    max-width: 490px;
+}
+
 .card {
+    width: 100%;
     max-width: 634px;
     padding: 15px;
 }

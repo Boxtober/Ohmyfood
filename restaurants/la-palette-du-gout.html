@@ -29,54 +29,54 @@
 <body>
     <header>
         <nav>
-            <a class="nav__contain row" href="../index.html">
+            <a class="nav__link" href="../index.html">
                 <i class="fas fa-arrow-left header__arrow"></i>
-                <h1>ohmyfood</h1>
             </a>
+            <h1>ohmyfood</h1>
+
         </nav>
     </header>
-    <main>
-        <!--head-->
 
-        <section class="banner">
-            <img src="../assets/jay-wennington-N_Y88TWmGwA-unsplash.jpg" />
-        </section>
-        <section class="main__restaurent">
 
-            <h1>La palette du goût</h1>
-            <div class="heart-button">
-                <i class="fa-regular fa-heart heart__fill"></i>
-                <i class="fa-solid fa-heart heart__solid"></i>
-            </div>
+    <main class="main-restaurent">
+        <img class="banner-img" src="../assets/jay-wennington-N_Y88TWmGwA-unsplash.jpg" />
 
+        <div class="restaurent-container">
+            <section class="header-restaurent row">
+                <h1>La palette du goût</h1>
+                <div class="heart-button">
+                    <i class="fa-regular fa-heart heart__fill"></i>
+                    <i class="fa-solid fa-heart heart__solid"></i>
+                </div>
+            </section>
 
             <section>
-                <article>
-                    <div>
-                        <h2>ENTRÉES</h2>
-                        <div></div>
-                    </div>
 
+                <article class="menu">
+                    <div>
+                        <h2 class="menu__title">ENTRÉES</h2>
+                        <div class="menu__line"></div>
+                    </div>
 
                     <div class="card">
                         <h4 class="card__title">Fricassée d'escargots</h4>
                         <div class="card__subtitle">
                             <p>Au piment d'Espelette</p>
-                            <p class="card__price">25€</p>
+                            <b class="card__price">25€</b>
                         </div>
                     </div>
                     <div class="card">
                         <h4 class="card__title">Foie gras de canard mi-cuit</h4>
                         <div class="card__subtitle">
                             <p>Et ses copeaux de truffe noire</p>
-                            <p class="card__price">35€</p>
+                            <b class="card__price">35€</b>
                         </div>
                     </div>
                     <div class="card">
                         <h4 class="card__title">Œuf au plat</h4>
                         <div class="card__subtitle">
                             <p>Assaisonné à la truffe sur lit de caviar</p>
-                            <p class="card__price">20€</p>
+                            <b class="card__price">20€</b>
                         </div>
                     </div>
                 </article>
@@ -95,21 +95,21 @@
                         <h4 class="card__title">Filet de bœuf aux herbes</h4>
                         <div class="card__subtitle">
                             <p>Accompagnée de sa ribambelle de légumes</p>
-                            <p class="card__price">40€</p>
+                            <b class="card__price">40€</b>
                         </div>
                     </div>
                     <div class="card">
                         <h4 class="card__title">Parmentier de queue de bœuf</h4>
                         <div class="card__subtitle">
                             <p>À la truffe noire sur sa purée de panais</p>
-                            <p class="card__price">35€</p>
+                            <b class="card__price">35€</b>
                         </div>
                     </div>
                     <div class="card">
                         <h4 class="card__title">Filet de turbot</h4>
                         <div class="card__subtitle">
                             <p>Aux agrumes</p>
-                            <p class="card__price">44€</p>
+                            <b class="card__price">44€</b>
                         </div>
                     </div>
                 </article>
@@ -119,7 +119,7 @@
                 <article class="menu">
                     <div>
                         <h2 class="menu__title">DESSERTS</h2>
-                        <div class="menu__underline"></div>
+                        <div class="menu__line"></div>
                     </div>
 
                     <!--card dessert-->
@@ -128,21 +128,21 @@
                         <h4 class="card__title">Paris-brest</h4>
                         <div class="card__subtitle">
                             <p>Revisité</p>
-                            <p class="card__price">18€</p>
+                            <b class="card__price">18€</b>
                         </div>
                     </div>
                     <div class="card">
                         <h4 class="card__title">Macaron au chocolat d'exeption</h4>
                         <div class="card__subtitle">
                             <p>Et sa glace à la vanille de Madagascar</p>
-                            <p class="card__price">22€</p>
+                            <b class="card__price">22€</b>
                         </div>
                     </div>
                     <div class="card">
                         <h4 class="card__title">Mousse au chocolat</h4>
                         <div class="card__subtitle">
                             <p>Au piment d'espelette et à la truffe noire</p>
-                            <p class="card__price">23€</p>
+                            <b class="card__price">23€</b>
                         </div>
                     </div>
                 </article>
@@ -151,11 +151,19 @@
                     Commander
                 </a>
             </section>
-        </section>
 
-
-
+        </div>
     </main>
+
+    <footer>
+        <h3>ohmyfood</h3>
+        <ul>
+            <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
