@@ -1,12 +1,32 @@
-.main-restaurent {
-    box-sizing: border-box;
+.header-restaurent {
+    margin-top: 30px;
+
+    .heart-button {
+        font-size: 28px;
+        cursor: pointer;
+        position: relative;
+        bottom: 15px;
+        left: 15px;
+    }
+}
+
+.banner-img {
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.main-restaurent-container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F6F6F6;
+
 
     h2 {
         color: #000;
-
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -19,39 +39,6 @@
 
     h4 {
         font-size: 18px;
-    }
-
-    .menu__line {
-        width: 40px;
-        height: 3px;
-        background: var(--tertiaire);
-        margin-top: 0.5rem;
-
-    }
-
-    .card__subtitle {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-
-    .banner-img {
-        height: 275px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-
-    .header-restaurent {
-
-        .heart-button {
-            font-size: 28px;
-            cursor: pointer;
-            position: relative;
-            bottom: 15px;
-            left: 15px;
-        }
     }
 
     .restaurent-container {
@@ -70,5 +57,13 @@
         display: flex;
         flex-direction: column;
         gap: 12px;
+        width: 100%;
+    }
+
+
+    .all-menu-container {
+        width: 100%;
+        padding: 0px 15px;
+
     }
 }

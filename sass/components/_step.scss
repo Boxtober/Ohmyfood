@@ -55,10 +55,23 @@
     background: #F6F6F6;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 
+    p {
+        color: #000;
 
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 
 }
 
-.fas .fa-mobile-alt {
-    padding-left: 10%;
+.fa-mobile-alt,
+.fa-list-ul {
+    color: #7E7E7E;
+}
+
+.fa-store {
+    color: var(--primary);
 }
