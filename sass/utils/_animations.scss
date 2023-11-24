@@ -9,7 +9,7 @@
     &:hover,
     &:focus,
     &:active {
-        color: var(--primarygit);
+        color: var(--black);
     }
 
     .fa-heart {
@@ -71,7 +71,6 @@
     }
 }
 
-/**** menu *****/
 .entree {
     transform: translateX(-150%);
     animation: animateEntree 0.7s ease-in-out 0.5s forwards
@@ -99,55 +98,3 @@
         right: 5%;
     }
 }
-
-
-
-
-/*
-.loader-container {
-   
-    animation: fadeIn 1s forwards, fadeOut 1s forwards 3s;
-}
-
-.loader {
-    display: inline-block;
-    position: relative;
-    box-sizing: border-box;
-    border: 8px solid var(--primary);
-    border-top: 8px solid var(--secondary);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-*/

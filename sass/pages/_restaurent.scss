@@ -5,13 +5,8 @@ body {
 .header-restaurent {
     width: 100%;
     display: flex;
-
     flex-direction: column;
-    // align-items: center;
 
-    /*margin-top: 30px;
-    margin-right: 35px;
-*/
     .heart-button {
         font-size: 28px;
         cursor: pointer;
@@ -38,7 +33,7 @@ body {
 }
 
 .border {
-    background-color: #F6F6F6;
+    background-color: var(--Grey);
     position: relative;
     bottom: 29px;
     border-radius: 40px 40px 0px 0px;
@@ -52,17 +47,14 @@ body {
     flex-direction: column;
     align-items: center;
 
-
-
     h2 {
-        color: #000;
+        color: var(--black);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         text-transform: uppercase;
-
     }
 
     h4 {
@@ -70,8 +62,6 @@ body {
     }
 
     .restaurent-container {
-
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -83,25 +73,22 @@ body {
         flex-direction: column;
         gap: 12px;
         width: 100%;
-        background-color: #F6F6F6;
+        background-color: var(--Grey);
     }
-
 
     .all-menu-container {
         width: 100%;
         padding: 0px 15px;
-
+        padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 40px;
-        padding-bottom: 40px;
-
     }
 
     section {
         padding-bottom: 40px;
-        background-color: #F6F6F6;
+        background-color: var(--Grey);
     }
 }
 
@@ -115,7 +102,7 @@ body {
     }
 
     main-restaurent-container {
-        background-color: rgb(255, 255, 255);
+        background-color: var(--White);
     }
 
     .main-restaurent-container .all-menu-container {
@@ -127,21 +114,3 @@ body {
         justify-content: center;
     }
 }
-
-
-/*
-
-@media screen and (min-width: 1024px) {
-
-    .main-restaurent-container {
-        background-color: #ffffff;
-
-        .restaurent-container {
-            width: 80%;
-        }
-
-    }
-
-
-
-}*/

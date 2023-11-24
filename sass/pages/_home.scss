@@ -27,7 +27,6 @@ h4 {
   font-weight: 700;
 }
 
-
 .localisation {
   display: flex;
   justify-content: center;
@@ -43,11 +42,11 @@ h4 {
   align-items: center;
   text-align: center;
   gap: 1.5rem;
-  background-color: #F6F6F6;
+  background-color: var(--Grey);
 }
 
 .restaurants {
-  background-color: #F6F6F6;
+  background-color: var(--Grey);
   gap: 18px;
 }
 
@@ -79,6 +78,4 @@ h4 {
       width: 50%;
     }
   }
-
-
 }

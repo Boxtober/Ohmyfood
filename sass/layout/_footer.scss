@@ -1,7 +1,7 @@
 footer {
     padding: 22px 25px;
-    background-color: #353535;
-    color: white;
+    background-color: var(--footer);
+    color: var(--White);
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -18,7 +18,7 @@ footer {
         gap: 7px;
 
         a {
-            color: white;
+            color: var(--White);
         }
 
         i {
