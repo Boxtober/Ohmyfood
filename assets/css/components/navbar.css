@@ -8,7 +8,10 @@ nav {
 .nav__link > i {
   position: absolute;
   top: 2.5%;
-  left: 29px; }
+  left: 29px;
+  color: initial; }
+  .nav__link > i:hover, .nav__link > i:focus, .nav__link > i:active {
+    color: black; }
 
 h1 {
   display: flex;

@@ -4,6 +4,13 @@
     position: relative;
     bottom: 12px;
     right: 10%;
+    color: initial;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: var(--primarygit);
+    }
 
     .fa-heart {
         position: absolute;
