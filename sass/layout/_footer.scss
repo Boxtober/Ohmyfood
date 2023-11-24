@@ -27,5 +27,37 @@ footer {
             padding-right: 25px;
         }
 
+        .row-footer {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    footer {
+
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        gap: 80px;
+        height: 114px;
+        padding: 30px 25px;
+
+    }
+
+    footer ul .row-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+    }
+
+    footer ul {
+
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
     }
 }

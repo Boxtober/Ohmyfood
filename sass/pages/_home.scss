@@ -50,3 +50,28 @@ h4 {
   background-color: #F6F6F6;
   gap: 18px;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .operation-step-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section {
+    padding: 50px 180px;
+  }
+
+  .row-cards {
+    gap: 18px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    a {
+      width: 50%;
+    }
+  }
+
+
+}

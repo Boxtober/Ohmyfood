@@ -65,19 +65,18 @@
 }
 
 /**** menu *****/
-
 .entree {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
     animation: animateEntree 0.7s ease-in-out 0.5s forwards
 }
 
 .plat {
-    transform: translateX(100%);
+    transform: translateX(150%);
     animation: animateEntree 0.7s ease-in-out 1.2s forwards
 }
 
 .dessert {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
     animation: animateEntree 0.7s ease-in-out 1.9s forwards
 }
 
@@ -87,6 +86,15 @@
         transform: translateX(0%);
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .heart-button {
+        right: 5%;
+    }
+}
+
+
+
 
 /*
 .loader-container {
