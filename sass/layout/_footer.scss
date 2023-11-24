@@ -27,12 +27,7 @@ footer {
             padding-right: 25px;
         }
 
-        .row-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 7px;
 
-        }
     }
 }
 
@@ -48,16 +43,10 @@ footer {
 
     }
 
-    footer ul .row-footer {
-        display: flex;
-        flex-direction: row;
-        gap: 7px;
-    }
-
     footer ul {
 
         display: flex;
         flex-direction: row;
-        gap: 50px;
+        gap: 40px;
     }
 }
