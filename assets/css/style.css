@@ -439,6 +439,11 @@ h4 {
   background-color: #F6F6F6;
   gap: 18px; }
 
+.row-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; }
+
 @media screen and (min-width: 1024px) {
   .operation-step-container {
     display: flex;
@@ -446,9 +451,9 @@ h4 {
   section {
     padding: 50px 180px; }
   .row-cards {
-    gap: 18px;
     display: flex;
     flex-direction: row;
-    width: 100%; }
+    width: 100%;
+    gap: 100px; }
     .row-cards a {
       width: 50%; } }
