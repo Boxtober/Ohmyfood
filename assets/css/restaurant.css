@@ -18,9 +18,20 @@
   --Grey: #F6F6F6;
   --White: #fff;
   --footer: #353535;
-  --font-text: "Roboto";
   --gradient: linear-gradient(350deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
   --gradient-hover: linear-gradient(350deg, #9356dc 0%, #ff79da 80%); }
+
+h1,
+h3 {
+  font-family: "Shrikhand", serif; }
+
+h4,
+h2,
+p,
+b,
+a,
+.button {
+  font-family: 'Roboto', sans-serif; }
 
 .col {
   display: flex;
@@ -45,16 +56,11 @@ nav {
 
 .nav__link > i {
   position: absolute;
-  top: 2.5%;
+  transform: translate(-50%, -50%);
   left: 29px;
   color: initial; }
   .nav__link > i:hover, .nav__link > i:focus, .nav__link > i:active {
     color: black; }
-
-h1 {
-  display: flex;
-  font-family: "Shrikhand", serif;
-  font-size: 30px; }
 
 .button {
   padding: 13px 18.75px;
@@ -63,7 +69,6 @@ h1 {
   border-radius: 25px;
   color: #FFF;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   transition: ease-in-out; }

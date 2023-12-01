@@ -13,7 +13,7 @@ nav {
 .nav__link>i {
 
     position: absolute;
-    top: 2.5%;
+    transform: translate(-50%, -50%);
     left: 29px;
     color: initial;
 
@@ -22,10 +22,4 @@ nav {
     &:active {
         color: black;
     }
-}
-
-h1 {
-    display: flex;
-    font-family: "Shrikhand", serif;
-    font-size: 30px;
 }

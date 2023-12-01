@@ -7,9 +7,22 @@
     --Grey: #F6F6F6;
     --White: #fff;
     --footer: #353535;
-    --font-text: "Roboto";
     --gradient: linear-gradient(350deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
     --gradient-hover: linear-gradient(350deg, #9356dc 0%, #ff79da 80%);
+}
+
+h1,
+h3 {
+    font-family: "Shrikhand", serif;
+}
+
+h4,
+h2,
+p,
+b,
+a,
+.button {
+    font-family: 'Roboto', sans-serif;
 }
 
 .col {
