@@ -267,6 +267,10 @@ footer {
 body {
   box-sizing: border-box; }
 
+h1 {
+  display: flex;
+  font-size: 30px; }
+
 .header-restaurent {
   width: 100%;
   display: flex;
